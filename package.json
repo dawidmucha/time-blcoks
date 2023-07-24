@@ -11,7 +11,9 @@
     "@vueuse/core": "^10.2.1",
     "core-js": "^3.8.3",
     "dateformat": "^5.0.3",
-    "vue": "^3.2.13"
+    "firebase": "^10.1.0",
+    "vue": "^3.2.13",
+    "vuefire": "^3.1.11"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
