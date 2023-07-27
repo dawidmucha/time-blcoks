@@ -2,7 +2,7 @@
 /* eslint-disable */
 	import { useDateFormat, useNow } from '@vueuse/core'
 	import { collection, getDocs } from 'firebase/firestore'
-	import db from '../main'
+
 
 	const formattedDate = useDateFormat(useNow(), 'dddd, DD MMMM, YYYY')
 </script>
@@ -17,11 +17,6 @@
 </template>
 
 <script>
-	const querySnapshot = await getDocs(collection(db, 'testing'))
-	// querySnapshot.forEach((doc) => {
-	// 	console.log(`${doc.id} => doc.data()`)
-	// })
-
 	export default {
 		name: 'TimeTable',
 		data() {
